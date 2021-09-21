@@ -1,5 +1,9 @@
+def Method():
+    print("This is a second method call!")
+
 def Hello():
-    print("Hey there! This is a method, it is not useless if you ask me!")
+    print("Hey there! This is a method, it is somewhat useless if you ask me!")
+    Method()
 
 if __name__ == '__main__':
     Hello()
